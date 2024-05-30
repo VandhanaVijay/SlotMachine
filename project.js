@@ -139,7 +139,7 @@ const game = () => {
   let balance = deposit();
 
   while (true) {
-    console.log("You have a balance of Rs" + balance);
+    console.log("You have a balance of Rs " + balance);
     const numberOfLines = getNumberOfLines();
     const bet = getBet(balance, numberOfLines);
     balance -= bet * numberOfLines;
